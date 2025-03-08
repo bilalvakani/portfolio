@@ -2,7 +2,7 @@
 
 import { useTheme } from 'next-themes'
 import React, {  useEffect, useState } from 'react'
-import { MoonIcon, SunIcon, MenuIcon, XIcon } from "lucide-react"
+import { MoonIcon, SunIcon, } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const Navbar = () => {
