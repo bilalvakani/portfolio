@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { MoonIcon, SunIcon, MenuIcon, XIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const navbar = () => {
+const Navbar = () => {
     
     const { theme, setTheme } = useTheme()
     const [mounted, setMounted] = useState(false)
@@ -136,4 +136,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

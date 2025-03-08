@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 import {  GithubIcon, LinkedinIcon, FileTextIcon } from "lucide-react"
 import CVViewer from "./cv-viewer"
 
-const hero = () => {
+const Hero = () => {
 
     const cursorRef = useRef<HTMLDivElement>(null)
     const [showCV, setShowCV] = useState(false)
@@ -155,4 +155,4 @@ const hero = () => {
 )
 }
 
-export default hero
+export default Hero
