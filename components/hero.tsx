@@ -210,7 +210,7 @@ const Hero = () => {
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-3xl mx-auto text-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-              <h2 className="text-lg md:text-xl lg:text-2xl font-medium text-primary mb-2">Hello, I'm</h2>
+            <h2 className="text-lg md:text-xl lg:text-2xl font-medium text-primary mb-2">Hello, I&apos;m</h2>
             </motion.div>
 
             <motion.div

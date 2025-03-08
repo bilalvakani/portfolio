@@ -147,12 +147,12 @@ import { Button } from "@/components/ui/button"
 
 const Navbar = () => {
     const { theme, setTheme } = useTheme()
-    const [mounted, setMounted] = useState(false)
+    // const [mounted, setMounted] = useState(false)
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    useEffect(() => {
-        setMounted(true)
-    }, [])
+    // useEffect(() => {
+    //     setMounted(true)
+    // }, [])
 
     // Prevent scrolling when mobile menu is open
     useEffect(() => {
