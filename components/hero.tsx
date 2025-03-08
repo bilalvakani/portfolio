@@ -4,8 +4,8 @@ import React from 'react'
 import { useEffect, useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
-import { ArrowDownIcon, GithubIcon, LinkedinIcon, FileTextIcon } from "lucide-react"
-// import CVViewer from "./cv-viewer"
+import {  GithubIcon, LinkedinIcon, FileTextIcon } from "lucide-react"
+import CVViewer from "./cv-viewer"
 
 const hero = () => {
 
@@ -150,7 +150,7 @@ const hero = () => {
       </div>
 
       {/* CV Viewer Component */}
-      {/* <CVViewer isOpen={showCV} onClose={() => setShowCV(false)} /> */}
+      <CVViewer isOpen={showCV} onClose={() => setShowCV(false)} />
     </section>
 )
 }
