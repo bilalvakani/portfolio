@@ -43,7 +43,7 @@ export default function About() {
             <div className="absolute -top-5 -left-5 w-16 sm:w-20 h-16 sm:h-20 bg-primary/10 rounded-full"></div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.5, delay: 0.4 }}
@@ -82,7 +82,48 @@ export default function About() {
                 <p className="text-foreground/80 text-sm sm:text-base">1+ Years</p>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
+          <motion.div
+  initial={{ opacity: 0, x: 50 }}
+  animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
+  transition={{ duration: 0.5, delay: 0.4 }}
+  className="px-2 sm:px-0"
+>
+  <h3 className="text-xl sm:text-2xl font-bold mb-4 text-primary">Frontend Developer &amp; UI/UX Enthusiast</h3>
+  <p className="text-foreground/80 mb-4 text-sm sm:text-base">
+    Hello! I&apos;m Muhammad Bilal Vakani, a passionate Frontend Developer with expertise in creating responsive
+    and interactive web applications. I specialize in React, Next.js, Firebase, HTML, and CSS.
+  </p>
+  <p className="text-foreground/80 mb-4 text-sm sm:text-base">
+    With a keen eye for design and a strong foundation in frontend technologies, I strive to build
+    user-friendly interfaces that provide exceptional user experiences. I enjoy solving complex problems and
+    turning ideas into reality through clean and efficient code.
+  </p>
+  <p className="text-foreground/80 mb-6 text-sm sm:text-base">
+    When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or
+    enhancing my skills through continuous learning.
+  </p>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div>
+      <h4 className="font-bold mb-1 sm:mb-2">Name:</h4>
+      <p className="text-foreground/80 text-sm sm:text-base">Muhammad Bilal Vakani</p>
+    </div>
+    <div>
+      <h4 className="font-bold mb-1 sm:mb-2">Email:</h4>
+      <p className="text-foreground/80 text-sm sm:text-base">bilalvakani123@gmail.com</p>
+    </div>
+    <div>
+      <h4 className="font-bold mb-1 sm:mb-2">From:</h4>
+      <p className="text-foreground/80 text-sm sm:text-base">Karachi</p>
+    </div>
+    <div>
+      <h4 className="font-bold mb-1 sm:mb-2">Experience:</h4>
+      <p className="text-foreground/80 text-sm sm:text-base">1+ Years</p>
+    </div>
+  </div>
+</motion.div>
+
         </div>
       </div>
     </section>
