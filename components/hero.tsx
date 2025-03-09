@@ -275,12 +275,12 @@ const Hero = () => {
               className="mt-8 flex justify-center space-x-4"
             >
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/bilalvakani" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <GithubIcon className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/bilal-vakani-4861b6245/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <LinkedinIcon className="h-5 w-5" />
                 </a>
               </Button>
