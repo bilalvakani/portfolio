@@ -32,7 +32,7 @@ export default function About() {
           >
             <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] rounded-lg overflow-hidden border-4 border-background shadow-xl">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="https://www.21kschool.com/in/wp-content/uploads/sites/4/2023/11/15-Facts-About-Coding-Every-Kid-Should-Know.png"
                 alt="Muhammad Bilal Vakani"
                 fill
                 className="object-cover"
