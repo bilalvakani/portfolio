@@ -2,7 +2,14 @@
 
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import { Code2Icon, DatabaseIcon, LayoutIcon, ServerIcon, BrainCircuitIcon, FlameIcon } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { 
+  BrainCircuitIcon, 
+  CodeIcon, 
+  LayoutDashboardIcon, 
+  ServerIcon, 
+  DatabaseIcon 
+} from "lucide-react"
 
 export default function Skills() {
   const [ref, inView] = useInView({
@@ -13,12 +20,12 @@ export default function Skills() {
   const skills = [
     {
       category: "Frontend",
-      icon: <LayoutIcon className="h-6 w-6" />,
+      icon: <LayoutDashboardIcon className="h-6 w-6" />,
       items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React.js", "Next.js"],
     },
     {
       category: "UI Frameworks",
-      icon: <Code2Icon className="h-6 w-6" />,
+      icon: <CodeIcon className="h-6 w-6" />,
       items: ["Tailwind CSS", "Material UI", "Bootstrap", "Styled Components","Shadcn"],
     },
     {
@@ -65,9 +72,8 @@ export default function Skills() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-2">My Skills</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
-          <p className="text-foreground/80 max-w-2xl mx-auto">
-            I've worked with a variety of technologies in the web development world. Here are my main areas of
-            expertise:
+          <p className="text-foreground/80">
+            Here&apos;s what I&apos;m good at. I&apos;m continuously learning and expanding my skill set.
           </p>
         </motion.div>
 

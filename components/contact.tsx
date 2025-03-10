@@ -8,7 +8,7 @@ import { useInView } from "react-intersection-observer"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { MailIcon, PhoneIcon, MapPinIcon, SendIcon, CheckCircleIcon } from "lucide-react"
+import { MailIcon, PhoneIcon, MapPinIcon, SendIcon } from "lucide-react"
 
 export default function Contact() {
   const [ref, inView] = useInView({
@@ -98,7 +98,7 @@ Message: ${formState.message}
           <h2 className="text-3xl md:text-4xl font-bold mb-2">Get In Touch</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-foreground/80 max-w-2xl mx-auto">
-            Feel free to contact me for any project or collaboration. I'm always open to discussing new projects,
+            Feel free to contact me for any project or collaboration. I&apos;m always open to discussing new projects,
             creative ideas, or opportunities to be part of your vision.
           </p>
         </motion.div>
